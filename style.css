@@ -11,3 +11,8 @@ h3 {
 h1 {
     color: white;
 }
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
