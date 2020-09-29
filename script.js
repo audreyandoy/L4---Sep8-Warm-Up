@@ -1,5 +1,6 @@
 var num1;
 var num2;
+var operator;
 
 function add() {
     var sum = num1 + num2
@@ -23,20 +24,29 @@ function clicked(num) {
         console.log("num2", num2)
     }
 }
-  
-  
 
-    // else if (num1 !== null && num2 !== null) {
-    //     num1 = num;
-    //     console.log("num1", num1)
-    // }
-    // document.getElementsByClassName("num").innerHTML = "You clicked me!";
+function setOperator(op) {
+    operator = op
+    console.log(operator)
+}
 
-    // num1 = 1;
-    // console.log(num1)
+function getOperator() {
+    if (operator == "+") {
+        add()
+    }
+}
 
-    // console.log(document.getElementsByClassName("num")[2].innerHTML)
-    
+// finish getOperator function and subtract, multiply, and divide functions
+
+
+
+
+
+
+
+
+
+
 
 
 
